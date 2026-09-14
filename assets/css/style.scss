@@ -3,71 +3,155 @@
 
 @import "{{ site.theme }}";
 
+/* =========================
+   KAMERON JONES PORTFOLIO
+   Dark + Orange + Baby Blue
+   ========================= */
+
 body {
-  background: #0f172a;
+  background: #0b1120;
   color: #e5e7eb;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Main header */
 .page-header {
-  background: linear-gradient(135deg, #0f172a, #1d4ed8);
-  padding: 3rem 1rem;
+  background: linear-gradient(
+    135deg,
+    #111827 0%,
+    #172554 55%,
+    #1e3a5f 100%
+  );
+
+  border-bottom: 4px solid #f97316;
 }
 
+/* Name / site title */
 .project-name {
-  font-size: 2.6rem;
-  font-weight: 700;
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
+/* Subtitle */
 .project-tagline {
-  color: #dbeafe;
+  color: #93c5fd;
 }
 
+/* Main page area */
 .main-content {
   background: #111827;
+  color: #dbeafe;
+
   max-width: 1000px;
-  margin: 30px auto;
+  margin: 35px auto;
   padding: 35px;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+
+  border-radius: 12px;
+
+  border-top: 3px solid #60a5fa;
+  border-bottom: 3px solid #f97316;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-h1, h2, h3 {
+/* Main headings */
+.main-content h1 {
   color: #ffffff;
+  font-weight: 800;
 }
 
-h2 {
-  border-bottom: 2px solid #2563eb;
+/* Section headings */
+.main-content h2 {
+  color: #7dd3fc;
+  border-bottom: 2px solid #f97316;
   padding-bottom: 8px;
 }
 
-a {
-  color: #60a5fa;
+/* Smaller headings */
+.main-content h3 {
+  color: #fb923c;
+}
+
+/* Normal links */
+.main-content a {
+  color: #7dd3fc;
   font-weight: 600;
-}
-
-a:hover {
-  color: #93c5fd;
-}
-
-.btn {
-  background: #2563eb;
-  border-radius: 8px;
-  color: white !important;
-  padding: 10px 16px;
   text-decoration: none;
 }
 
-code {
-  background: #1f2937;
-  color: #93c5fd;
-  padding: 3px 6px;
-  border-radius: 5px;
+.main-content a:hover {
+  color: #fb923c;
+  text-decoration: underline;
 }
 
+/* GitHub theme buttons */
+.btn {
+  background: #f97316;
+  color: #ffffff !important;
+
+  border: 2px solid #fb923c;
+  border-radius: 7px;
+
+  font-weight: 700;
+
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background: #60a5fa;
+  border-color: #93c5fd;
+  color: #0b1120 !important;
+  transform: translateY(-2px);
+}
+
+/* Horizontal separators */
 hr {
-  border: 0;
-  height: 1px;
-  background: #374151;
-  margin: 30px 0;
+  border: none;
+  height: 2px;
+
+  background: linear-gradient(
+    90deg,
+    #f97316,
+    #60a5fa
+  );
+
+  margin: 35px 0;
+}
+
+/* Inline code / tool labels */
+code {
+  background: #1f2937;
+  color: #7dd3fc;
+
+  padding: 4px 7px;
+  border-radius: 5px;
+
+  border-left: 2px solid #f97316;
+}
+
+/* Images */
+.main-content img {
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.30);
+}
+
+/* Tables */
+.main-content table {
+  background: #111827;
+}
+
+.main-content th {
+  background: #1e3a5f;
+  color: #ffffff;
+}
+
+.main-content td {
+  color: #e5e7eb;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #374151;
+  color: #94a3b8;
 }
