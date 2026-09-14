@@ -4,4 +4,4 @@ This section documents my data science projects, research questions, and data st
 
 For this project, I analyzed Pokémon TCG products released in 2025 to compare retail price baselines with secondary market prices. I used Python, pandas, API data, and data visualizations to determine which sets and product types experienced the largest price markups.
 
-[View My Pokémon TCG Market Analysis](pokemon_tcg_market_analysis.ipynb)
+[View My Pokémon TCG Market Analysis](https://github.com/LockdownKam/Data-Structures-Portfolio/blob/main/pokemon_tcg_market_analysis.ipynb)
