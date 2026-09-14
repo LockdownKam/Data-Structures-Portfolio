@@ -13,6 +13,14 @@ My career goal is to use data to solve meaningful problems and help organization
 
 I am proud of the experiences that have helped shape me, including my HP sales position, receiving scholarships from Truist and Principal, and taking the leap to move to Charlotte on my own. These experiences have taught me to be driven, independent, adaptable, and willing to take on challenges. I am committed to continuously learning, improving my skills, and finding new ways to apply what I learn to real-world problems.
 
+## Resume
+
+[View My Resume](Kameron_Jones_Resume.pdf)
+
+## LinkedIn
+
+[View My LinkedIn Profile](https://www.linkedin.com/in/kameron-jones-1680b918a/)
+
 ## Portfolio
 - [Blog](blog.md)
 - [Projects](projects.md)
