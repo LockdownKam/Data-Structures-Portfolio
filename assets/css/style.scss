@@ -150,6 +150,38 @@ code {
   color: #e5e7eb;
 }
 
+/* Remove default green theme colors */
+
+.page-header {
+  background: linear-gradient(
+    135deg,
+    #0b1120,
+    #1e3a5f
+  ) !important;
+
+  border-bottom: 4px solid #f97316;
+}
+
+.project-name {
+  color: #ffffff !important;
+}
+
+.project-tagline {
+  color: #7dd3fc !important;
+}
+
+.btn {
+  background-color: #f97316 !important;
+  border-color: #fb923c !important;
+  color: #ffffff !important;
+}
+
+.btn:hover {
+  background-color: #7dd3fc !important;
+  border-color: #7dd3fc !important;
+  color: #0b1120 !important;
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid #374151;
