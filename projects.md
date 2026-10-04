@@ -84,6 +84,8 @@ For this project, I created the target variable `HABITAT_TARGET` to classify spe
 
 The final dataset contained 589 flowing-water species and 108 still-water species, showing a noticeable class imbalance. Exploratory analysis also showed differences in body size and feeding ecology between the two habitat groups. Still-water species generally had a higher median maximum body length and were more commonly associated with surface/water-column feeding and feeding on larger prey.
 
+![Distribution of Flowing-Water and Still-Water Fish Species](assets/css/images/habitat_distribution.png)
+
 Several predictor variables contained missing values. These values were handled using median imputation within the machine-learning pipelines so that information from the test set was not used during model training.
 
 ### Model Development
