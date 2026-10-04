@@ -29,3 +29,32 @@ Data Collection · Data Cleaning · Data Analysis · Data Visualization
 - Created visualizations to compare sets and product categories
 
 ---
+
+## 2. Freshwater Fish Habitat Prediction
+
+### Can machine learning predict whether a freshwater fish species prefers flowing-water or still-water habitats?
+
+For this project, I used the FishTraits dataset to investigate whether biological and environmental characteristics can be used to predict freshwater fish habitat preference. I used body size, feeding ecology, life-history traits, and environmental characteristics to compare multiple machine-learning models.
+
+**Tools Used:**  
+`Python` · `Pandas` · `Matplotlib` · `Scikit-learn` · `Jupyter Notebook`
+
+**Skills Demonstrated:**  
+Data Cleaning · Exploratory Data Analysis · Feature Selection · Classification · Model Evaluation · Cross-Validation · Hyperparameter Tuning
+
+### [View Full Fish Habitat Analysis →](https://github.com/LockdownKam/Data-Structures-Portfolio/blob/main/Aquarium_Research_Project.ipynb)
+
+---
+
+### Project Highlights
+
+- Analyzed 809 freshwater fish species with 110 original variables
+- Created a classification target for flowing-water and still-water habitat preference
+- Compared a baseline classifier, Decision Tree, and Random Forest
+- Used balanced accuracy to account for class imbalance
+- Used 5-fold cross validation and hyperparameter tuning to improve model performance
+- Selected a tuned Random Forest with 71.9% balanced accuracy
+- Improved recall for still-water species from 45% to 59%
+- Used permutation importance and error analysis to interpret model performance
+
+---
