@@ -106,6 +106,8 @@ The tuned Random Forest achieved **80.7% overall accuracy** and **71.9% balanced
 
 For still-water species, recall improved from **45% with the original Random Forest to 59% with the tuned model**. In the final confusion matrix, the model correctly classified 100 of 118 flowing-water species and 13 of 22 still-water species.
 
+![Final Tuned Random Forest Confusion Matrix](assets/css/images/final_confusion_matrix.png)
+
 Based on these results, I selected the tuned Random Forest as my final model because it provided the strongest performance across both habitat classes rather than simply maximizing overall accuracy.
 
 ### Model Interpretation & Insights
