@@ -44,6 +44,26 @@ Data Cleaning · Exploratory Data Analysis · Feature Selection · Classificatio
 
 ### [View Full Fish Habitat Analysis →](https://github.com/LockdownKam/Data-Structures-Portfolio/blob/main/Aquarium_Research_Project.ipynb)
 
+### Variables Used
+
+The final model used 13 biological and environmental features:
+
+| Variable | Description |
+|---|---|
+| `MAXTL` | Maximum total body length |
+| `MATUAGE` | Age at maturity |
+| `LONGEVITY` | Longevity of the species |
+| `FECUNDITY` | Reproductive output |
+| `BENTHIC` | Benthic or bottom-feeding behavior |
+| `SURWCOL` | Surface or water-column feeding behavior |
+| `ALGPHYTO` | Feeding on algae or phytoplankton |
+| `MACVASCU` | Feeding on aquatic vascular plants |
+| `DETRITUS` | Feeding on detritus |
+| `INVLVFSH` | Feeding on invertebrates |
+| `FSHCRCRB` | Feeding on larger prey such as fish, crayfish, crabs, or frogs |
+| `MINTEMP` | 30-year average minimum January temperature at the species' range centroid |
+| `MAXTEMP` | 30-year average maximum July temperature at the species' range centroid |
+
 ---
 
 ### Project Highlights
